@@ -4,43 +4,36 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 import { ref } from "vue";
 
-export default {
-  setup() {
-    const menu = ref();
-    const items = ref([
+const items = ref([
+  {
+    label: "General",
+    items: [
       {
-        label: "General",
-        items: [
-          {
-            label: "Home",
-            icon: "pi pi-home",
-            to: "/",
-          },
-          {
-            label: "Profile",
-            icon: "pi pi-user",
-            to: "/profile",
-          },
-        ],
+        label: "Home",
+        icon: "pi pi-home",
+        to: "/",
       },
       {
-        label: "Sales",
-        items: [
-          {
-            label: "Orders",
-            icon: "pi pi-shopping-cart",
-            to: "/list-order",
-          },
-        ],
+        label: "Profile",
+        icon: "pi pi-user",
+        to: "/profile",
       },
-    ]);
-
-    return { items, menu };
+    ],
   },
-};
+  {
+    label: "Sales",
+    items: [
+      {
+        label: "Orders",
+        icon: "pi pi-shopping-cart",
+        to: "/list-order",
+      },
+    ],
+  },
+]);
 </script>
 
 <style scoped>

@@ -4,11 +4,6 @@
   </panel>
 </template>
 
-<script>
+<script setup lang="ts">
 import ListOrder from "@/components/ListOrder.vue";
-
-export default {
-  name: "ListOrderView",
-  components: { ListOrder },
-};
 </script>

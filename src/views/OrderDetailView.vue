@@ -4,11 +4,6 @@
   </panel>
 </template>
 
-<script>
+<script setup lang="ts">
 import OrderDetail from "@/components/OrderDetail.vue";
-
-export default {
-  name: "OrderDetailView",
-  components: { OrderDetail },
-};
 </script>

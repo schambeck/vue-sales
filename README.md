@@ -9,11 +9,9 @@ Sales Order CRUD User Interface.
 
 ## Tech Stack
 
-- VueJS
-- Composition API
-- Vitest
-- PrimeVue
-- PrimeFlex
+- VueJS, Composition API
+- Vitest, Cypress
+- PrimeVue, PrimeFlex
 
 ## Project Setup
 
@@ -39,7 +37,7 @@ npm run build
 npm run test:unit
 ```
 
-### Run End-to-End Tests
+### Run End-to-End Tests with Cypress
 
 ```sh
 npm run build
