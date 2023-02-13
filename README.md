@@ -5,7 +5,7 @@
 
 ## Description
 
-ERP Sales Order CRUD User Interface.
+Sales Order CRUD User Interface.
 
 ## Tech Stack
 
