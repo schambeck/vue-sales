@@ -1,6 +1,8 @@
 {
   "name": "vue-sales",
   "version": "1.0.0",
+  "description": "Sales Order API",
+  "author": "Marcelo Schambeck <mschambeck@gmail.com>",
   "private": true,
   "scripts": {
     "dev": "vite",
