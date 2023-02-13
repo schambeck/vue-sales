@@ -1,7 +1,6 @@
 # ui-vue-sales
 [![build](https://github.com/schambeck/vue-sales/actions/workflows/node.js.yml/badge.svg)](https://github.com/schambeck/vue-sales/actions/workflows/node.js.yml)
 [![quality gate](https://sonarcloud.io/api/project_badges/measure?project=schambeck_vue-sales&metric=alert_status)](https://sonarcloud.io/summary/overall?id=schambeck_vue-sales)
-[![coverage](https://sonarcloud.io/api/project_badges/measure?project=schambeck_vue-sales&metric=coverage)](https://sonarcloud.io/summary/overall?id=schambeck_vue-sales)
 
 ## Description
 
